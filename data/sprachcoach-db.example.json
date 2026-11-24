@@ -1,0 +1,619 @@
+{
+  "profile": {
+    "name": "Learner",
+    "currentLevel": "A2",
+    "targetLevel": "B1",
+    "goalTitle": "Goethe-Zertifikat B1 Exam",
+    "goalDetails": "Pass all 3 parts of Goethe-Zertifikat B1 Sprechen (Teil 1: Gemeinsam etwas planen, Teil 2: Ein Thema präsentieren, Teil 3: Rückmeldung geben) with confident speaking & listening.",
+    "nativeLanguage": "English",
+    "dailyMinutes": 15,
+    "coachStyle": "balanced",
+    "onboardingComplete": false
+  },
+  "aiConfig": {
+    "provider": "demo",
+    "geminiApiKey": "",
+    "geminiModel": "gemini-3.5-flash-lite",
+    "groqApiKey": "",
+    "groqModel": "llama-3.3-70b-versatile",
+    "groqUseWhisper": true,
+    "ollamaBaseUrl": "http://localhost:11434",
+    "ollamaModel": "qwen2.5:7b",
+    "ttsProvider": "edge_neural",
+    "edgeVoice": "de-DE-SeraphinaMultilingualNeural",
+    "customTtsUrl": "http://localhost:8880/v1/audio/speech",
+    "customTtsModel": "kokoro",
+    "customTtsVoice": "af_bella",
+    "customTtsApiKey": "",
+    "voiceRate": 1.1,
+    "preferredVoiceName": "",
+    "autoSpeak": true,
+    "handsFreeDefault": true,
+    "blindListeningDefault": false
+  },
+  "latestResearch": {
+    "id": "research-b1-1795517351360",
+    "goal": "Goethe-Zertifikat B1 Exam",
+    "currentLevel": "A2",
+    "targetLevel": "B1",
+    "searchedAt": "2026-11-24T10:49:11.360Z",
+    "sourceMode": "curated_blueprint",
+    "summary": "Goethe-Zertifikat B1 Sprechen (~15 minutes) evaluates your ability to plan an event collaboratively, deliver a structured 3-minute presentation on a real-life topic, and respond naturally to feedback and follow-up questions.",
+    "examFormat": [
+      {
+        "part": "Teil 1: Gemeinsam etwas planen",
+        "duration": "3–4 min",
+        "description": "You and a partner plan an event or solve a practical task together (e.g., organizing a farewell party, visiting a sick friend, planning a weekend excursion) covering 4 guiding points (Wann, Wo, Was mitbringen, Verkehrsmittel/Kosten).",
+        "tips": [
+          "Don't just agree — make a proposal, ask your partner's opinion, negotiate one small conflict, and confirm the final plan.",
+          "Key Redemittel: 'Ich schlage vor, dass...', 'Was hältst du davon, wenn...?', 'Einverstanden, dann machen wir das so!'"
+        ]
+      },
+      {
+        "part": "Teil 2: Ein Thema präsentieren",
+        "duration": "3–4 min",
+        "description": "Present a chosen everyday/societal topic following 5 classic Goethe slides: 1) Personal experience, 2) Situation in your home country, 3) Pros & cons + your opinion, 4) Conclusion & thanking the audience.",
+        "tips": [
+          "Always signpost each section clearly so examiners hear your structure.",
+          "Include at least 2 advantages, 2 disadvantages, and a clear personal opinion."
+        ]
+      },
+      {
+        "part": "Teil 3: Über ein Thema sprechen (Rückmeldung & Fragen)",
+        "duration": "2–3 min",
+        "description": "React to your partner's presentation with polite feedback and ask a thoughtful follow-up question — and answer questions about your own presentation spontaneously.",
+        "tips": [
+          "Praise one specific detail first ('Besonders interessant fand ich...'), then ask an open question."
+        ]
+      }
+    ],
+    "canDoCompetencies": [
+      "Collaborate to plan events, negotiate details, and handle minor disagreements politely in German.",
+      "Give a connected 3-minute mini-presentation comparing home-country habits with Germany and weighing pros & cons.",
+      "Connect ideas smoothly using Nebensätze (weil, obwohl, dass, wenn, damit) with verb-final word order.",
+      "Express wishes, polite suggestions, and hypotheticals using Konjunktiv II (könnte, würde, hätte, wäre).",
+      "React spontaneously to follow-up questions without reverting to English."
+    ],
+    "trendingTopics": [
+      {
+        "topicDe": "Homeoffice vs. Arbeit im Büro",
+        "topicEn": "Remote Work vs. Office Work",
+        "whyImportant": "One of the most frequent recent B1 Teil 2 presentation topics.",
+        "samplePromptDe": "Präsentieren Sie das Thema 'Arbeiten im Homeoffice': Erfahrungen, Situation im Heimatland, Vor- und Nachteile."
+      },
+      {
+        "topicDe": "Umweltschutz im Alltag & Plastik vermeiden",
+        "topicEn": "Everyday Environmental Protection",
+        "whyImportant": "Top recurring Goethe B1 topic testing modal verbs and 'damit / um...zu'.",
+        "samplePromptDe": "Was können wir im Alltag für die Umwelt tun? Brauchen wir strengere Regeln?"
+      },
+      {
+        "topicDe": "Smartphones & Soziale Medien bei Kindern/Jugendlichen",
+        "topicEn": "Smartphones & Social Media",
+        "whyImportant": "Classic B1 opinion & pros/cons topic with rich everyday vocabulary.",
+        "samplePromptDe": "Ab welchem Alter sollten Kinder ein eigenes Smartphone haben?"
+      },
+      {
+        "topicDe": "Gesunde Ernährung, Fast Food & Sport",
+        "topicEn": "Healthy Eating & Fitness",
+        "whyImportant": "Frequently tested in both Teil 2 presentations and Teil 1 planning.",
+        "samplePromptDe": "Wie wichtig ist gesunde Ernährung heute? Kochen die Menschen noch selbst?"
+      },
+      {
+        "topicDe": "Wohnen in der Großstadt oder auf dem Land",
+        "topicEn": "City vs. Countryside Living",
+        "whyImportant": "Great for practicing comparisons, 'obwohl', and personal reasons.",
+        "samplePromptDe": "Welche Vor- und Nachteile hat das Leben in der Großstadt im Vergleich zum Land?"
+      },
+      {
+        "topicDe": "Online-Shopping vs. Einkaufen im Geschäft",
+        "topicEn": "Online Shopping vs. In-Store",
+        "whyImportant": "Common real-world B1 exam card topic.",
+        "samplePromptDe": "Kaufen Sie lieber im Internet oder im Geschäft ein? Begründen Sie Ihre Meinung."
+      }
+    ],
+    "keyGrammarTargets": [
+      "Nebensätze & Verbposition am Ende (weil, dass, obwohl, wenn, damit)",
+      "Konjunktiv II für Vorschläge & Höflichkeit (wir könnten, ich würde vorschlagen, es wäre gut)",
+      "Relativsätze (der/die/das, in dem, mit denen) für präzisere Beschreibungen",
+      "Perfekt vs. Präteritum (war, hatte, konnte, wollte) beim Erzählen",
+      "Wechselpräpositionen & Verben mit Präpositionen (sich interessieren für, denken an, warten auf)"
+    ]
+  },
+  "plan": {
+    "id": "plan-1795517351360",
+    "title": "A2 -> Goethe-Zertifikat B1 Speaking Plan",
+    "summary": "A guided, editable speaking roadmap covering Goethe B1 Teil 1–3, trending exam topics, and spontaneous listening reactions.",
+    "updatedAt": "2026-11-24T10:49:11.360Z",
+    "modules": [
+      {
+        "id": "mod-b1-1",
+        "order": 0,
+        "title": "Goethe B1 Teil 1: Planning a Farewell Party",
+        "titleDe": "Teil 1: Gemeinsam eine Abschiedsparty planen",
+        "category": "exam_teil1_planning",
+        "targetLevel": "B1",
+        "durationMinutes": 10,
+        "scenarioPrompt": "Ein Kollege aus Ihrem Deutschkurs zieht zurück in sein Heimatland. Planen Sie gemeinsam eine Überraschungs-Abschiedsparty: 1) Wann und um wie viel Uhr?, 2) Wo feiern wir?, 3) Wer kümmert sich um Essen und Getränke?, 4) Welches Abschiedsgeschenk kaufen wir?",
+        "coachRole": "Ihr Kursteilnehmer aus dem Deutschkurs (freundlich, hat eigene Gegenvorschläge, damit Sie verhandeln)",
+        "learnerGoal": "Besprechen Sie alle 4 Leitpunkte, machen Sie höfliche Vorschläge im Konjunktiv II und einigen Sie sich am Ende auf einen klaren Plan.",
+        "grammarFocus": [
+          "Konjunktiv II (wir könnten / ich würde)",
+          "Nebensätze mit weil & wenn"
+        ],
+        "keyVocabulary": [
+          "Ich schlage vor, dass...",
+          "Was hältst du davon?",
+          "ein Geschenk besorgen",
+          "sich um das Essen kümmern"
+        ],
+        "status": "queued",
+        "source": "generated",
+        "completedCount": 0
+      },
+      {
+        "id": "mod-b1-2",
+        "order": 1,
+        "title": "Goethe B1 Teil 2: Mini-Presentation — Remote Work",
+        "titleDe": "Teil 2 Präsentation: Arbeiten im Homeoffice",
+        "category": "exam_teil2_presentation",
+        "targetLevel": "B1",
+        "durationMinutes": 12,
+        "scenarioPrompt": "Halten Sie eine strukturierte 3-Minuten-Präsentation zum Thema „Arbeiten im Homeoffice“: 1) Ihre persönlichen Erfahrungen, 2) Die Situation in Ihrem Heimatland, 3) Vor- und Nachteile, 4) Ihre persönliche Meinung und Abschluss.",
+        "coachRole": "Freundliche/r Goethe-B1-Prüfer/in (begleitet Sie durch die Präsentationsteile und stellt Rückfragen)",
+        "learnerGoal": "Verbinden Sie alle 4 Präsentationsteile mit klaren Redemitteln und nennen Sie mindestens 2 Vorteile und 2 Nachteile.",
+        "grammarFocus": [
+          "Nebensätze mit obwohl & dass",
+          "Strukturwörter (Zuerst, Einerseits, Zusammenfassend)"
+        ],
+        "keyVocabulary": [
+          "Ein großer Vorteil ist, dass...",
+          "Auf der anderen Seite",
+          "Zeit sparen",
+          "der Kontakt zu Kollegen"
+        ],
+        "status": "queued",
+        "source": "generated",
+        "completedCount": 0
+      },
+      {
+        "id": "mod-b1-3",
+        "order": 2,
+        "title": "Goethe B1 Teil 3: Feedback & Spontaneous Follow-up Questions",
+        "titleDe": "Teil 3: Rückmeldung geben & Fragen beantworten",
+        "category": "exam_teil3_discussion",
+        "targetLevel": "B1",
+        "durationMinutes": 10,
+        "scenarioPrompt": "Ihr Gesprächspartner hält eine kurze Präsentation zum Thema „Umweltschutz im Alltag“. Geben Sie eine höfliche Rückmeldung, stellen Sie 2 Anschlussfragen und beantworten Sie die Gegenfragen zu Ihren eigenen Gewohnheiten.",
+        "coachRole": "Ihr Prüfungspartner (präsentiert über Umweltschutz im Alltag und stellt Ihnen Rückfragen)",
+        "learnerGoal": "Reagieren Sie spontan auf gesprochenes Deutsch, loben Sie einen konkreten Punkt und stellen Sie offene Fragen.",
+        "grammarFocus": [
+          "Indirekte Fragen (Ich möchte wissen, ob...)",
+          "damit / um...zu"
+        ],
+        "keyVocabulary": [
+          "Besonders interessant fand ich...",
+          "Ich hätte noch eine Frage dazu",
+          "Müll trennen",
+          "die Umwelt schützen"
+        ],
+        "status": "queued",
+        "source": "generated",
+        "completedCount": 0
+      },
+      {
+        "id": "mod-b1-4",
+        "order": 3,
+        "title": "Goethe B1 Teil 1: Visiting a Sick Friend in the Hospital",
+        "titleDe": "Teil 1: Einen kranken Freund im Krankenhaus besuchen",
+        "category": "exam_teil1_planning",
+        "targetLevel": "B1",
+        "durationMinutes": 10,
+        "scenarioPrompt": "Ein gemeinsamer Freund hat sich das Bein gebrochen und liegt im Krankenhaus. Planen Sie gemeinsam Ihren Besuch: 1) Wann besuchen wir ihn?, 2) Wie fahren wir zum Krankenhaus?, 3) Was bringen wir ihm mit?, 4) Wie können wir ihm danach zu Hause helfen?",
+        "coachRole": "Ihr Freund (arbeitet bis 17:00 Uhr und fährt lieber mit der Bahn)",
+        "learnerGoal": "Lösen Sie das Zeitproblem höflich und einigen Sie sich bei allen 4 Punkten auf eine gemeinsame Lösung.",
+        "grammarFocus": [
+          "Dativ nach mit/bei/nach",
+          "Modalverben + Infinitiv"
+        ],
+        "keyVocabulary": [
+          "Gute Besserung wünschen",
+          "die Besuchszeit",
+          "für ihn einkaufen",
+          "Das passt mir gut"
+        ],
+        "status": "queued",
+        "source": "generated",
+        "completedCount": 0
+      },
+      {
+        "id": "mod-b1-5",
+        "order": 4,
+        "title": "Goethe B1 Teil 2: City vs. Countryside Living",
+        "titleDe": "Teil 2: Wohnen in der Großstadt oder auf dem Land",
+        "category": "exam_teil2_presentation",
+        "targetLevel": "B1",
+        "durationMinutes": 12,
+        "scenarioPrompt": "Vergleichen Sie das Leben in der Großstadt mit dem Leben auf dem Land: 1) Ihre eigenen Erfahrungen (wo Sie aufgewachsen sind), 2) Situation in Ihrem Heimatland, 3) Vor- und Nachteile (Mieten, Lärm, Verkehr, Natur), 4) Wo Sie selbst lieber wohnen.",
+        "coachRole": "Goethe-B1-Prüfer/in (fragt nach genaueren Gründen und Vergleichen)",
+        "learnerGoal": "Nutzen Sie Komparativ-Formen und Nebensätze mit „obwohl“ und „während“ sicher beim Sprechen.",
+        "grammarFocus": [
+          "Komparativ (teurer als, ruhiger als)",
+          "Nebensätze mit obwohl"
+        ],
+        "keyVocabulary": [
+          "die Mieten sind hoch",
+          "gute Verkehrsanbindung",
+          "ruhig und grün",
+          "meiner Meinung nach"
+        ],
+        "status": "queued",
+        "source": "generated",
+        "completedCount": 0
+      },
+      {
+        "id": "mod-b1-6",
+        "order": 5,
+        "title": "Listening & Spontaneous Reaction: Everyday German Problems",
+        "titleDe": "Hören & Reagieren: Probleme im Alltag lösen",
+        "category": "listening_qa",
+        "targetLevel": "B1",
+        "durationMinutes": 10,
+        "scenarioPrompt": "Trainieren Sie spontanes Hörverstehen und Reagieren (Tipp: Blind-Listening-Modus testen!): Der Coach spielt 3 Alltagssituationen durch (Zugverspätung, falsche Lieferung, lauter Nachbar) und Sie reagieren sofort auf Deutsch.",
+        "coachRole": "Zugbegleiter, Kundenservice-Mitarbeiter und Nachbar in drei kurzen Rollenspielen",
+        "learnerGoal": "Verstehen Sie das gesprochene Problem sofort und reagieren Sie höflich, klar und lösungsorientiert.",
+        "grammarFocus": [
+          "Höfliche Bitten (Könnten Sie bitte...)",
+          "Perfekt beim Erklären"
+        ],
+        "keyVocabulary": [
+          "Es tut mir leid, aber...",
+          "Ich habe ein Problem mit...",
+          "Könnten Sie mir weiterhelfen?",
+          "eine Lösung finden"
+        ],
+        "status": "queued",
+        "source": "generated",
+        "completedCount": 0
+      }
+    ]
+  },
+  "memory": {
+    "summary": "Transitioning from A2 to B1 for the Goethe-Zertifikat B1 exam. Focus on speaking in connected sentences, verb-final order in Nebensätze, and polite negotiation phrases.",
+    "strengths": [
+      "Can handle basic everyday greetings and simple present-tense statements"
+    ],
+    "bottlenecks": [
+      {
+        "id": "bn-starter-1",
+        "title": "Verb at the end in Nebensätze (weil / dass / obwohl)",
+        "category": "grammar",
+        "description": "Common A2->B1 bottleneck: keeping main-clause word order after 'weil' or 'dass' instead of sending the conjugated verb to the end.",
+        "exampleMistake": "Ich lerne Deutsch, weil ich wohne in Berlin.",
+        "betterGerman": "Ich lerne Deutsch, weil ich in Berlin wohne.",
+        "severity": "high",
+        "occurrences": 1,
+        "lastSeenAt": "2026-11-24T10:49:11.360Z",
+        "createdAt": "2026-11-24T10:49:11.360Z"
+      },
+      {
+        "id": "bn-starter-2",
+        "title": "Polite suggestions with Konjunktiv II (Teil 1)",
+        "category": "exam_strategy",
+        "description": "Using 'wir könnten...' and 'ich würde vorschlagen...' instead of repetitive 'wir machen...' during Goethe B1 planning tasks.",
+        "exampleMistake": "Wir machen die Party am Samstag.",
+        "betterGerman": "Wir könnten die Party am Samstag machen. Was meinst du?",
+        "severity": "medium",
+        "occurrences": 1,
+        "lastSeenAt": "2026-11-24T10:49:11.360Z",
+        "createdAt": "2026-11-24T10:49:11.360Z"
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "voc-starter-1",
+        "german": "Ich schlage vor, dass...",
+        "meaning": "I suggest that...",
+        "exampleDe": "Ich schlage vor, dass wir uns am Samstag um 15 Uhr treffen.",
+        "topic": "Goethe B1 Teil 1",
+        "addedAt": "2026-11-24T10:49:11.360Z",
+        "mastered": false
+      },
+      {
+        "id": "voc-starter-2",
+        "german": "Einerseits ... andererseits ...",
+        "meaning": "On the one hand ... on the other hand ...",
+        "exampleDe": "Einerseits spart man im Homeoffice Zeit, andererseits vermisst man die Kollegen.",
+        "topic": "Goethe B1 Teil 2",
+        "addedAt": "2026-11-24T10:49:11.360Z",
+        "mastered": false
+      }
+    ],
+    "lastSessionRecap": "No sessions completed yet. Start your first guided conversation and your coach will automatically map your real speaking bottlenecks!",
+    "totalMinutesPracticed": 0,
+    "streakDays": 0
+  },
+  "mastery": {
+    "standardLevel": "B1",
+    "examName": "Goethe-Zertifikat B1 Exam",
+    "updatedAt": "2026-11-24T10:49:11.360Z",
+    "skills": {
+      "sprechen": {
+        "skill": "sprechen",
+        "label": "Speaking",
+        "labelDe": "Sprechen",
+        "examParts": "Teil 1: Planen · Teil 2: Präsentation · Teil 3: Rückmeldung",
+        "passThreshold": 60,
+        "score": 22,
+        "sessionsCount": 0
+      },
+      "hoeren": {
+        "skill": "hoeren",
+        "label": "Listening",
+        "labelDe": "Hören",
+        "examParts": "Alltag, Durchsagen, Gespräche & Radiodiskussion",
+        "passThreshold": 60,
+        "score": 20,
+        "sessionsCount": 0
+      },
+      "lesen": {
+        "skill": "lesen",
+        "label": "Reading",
+        "labelDe": "Lesen",
+        "examParts": "Blog/Artikel, Presse, Anzeigen, Leserbriefe & Regeln",
+        "passThreshold": 60,
+        "score": 24,
+        "sessionsCount": 0
+      },
+      "schreiben": {
+        "skill": "schreiben",
+        "label": "Writing",
+        "labelDe": "Schreiben",
+        "examParts": "Teil 1: E-Mail · Teil 2: Meinung/Forum · Teil 3: Formelle Nachricht",
+        "passThreshold": 60,
+        "score": 18,
+        "sessionsCount": 0
+      }
+    },
+    "vocabCategories": [
+      {
+        "id": "voc-work",
+        "titleDe": "Arbeit, Beruf & Bewerbung",
+        "titleEn": "Work, Career & Applications",
+        "targetWords": 300,
+        "masteredWords": 45,
+        "sampleWords": [
+          "die Bewerbung",
+          "der Arbeitsplatz",
+          "das Gehalt",
+          "die Berufserfahrung",
+          "kündigen",
+          "die Überstunden"
+        ],
+        "progressPct": 15
+      },
+      {
+        "id": "voc-living",
+        "titleDe": "Wohnen, Alltag & Nachbarschaft",
+        "titleEn": "Housing, Daily Life & Neighbors",
+        "targetWords": 300,
+        "masteredWords": 60,
+        "sampleWords": [
+          "die Miete",
+          "der Mietvertrag",
+          "umziehen",
+          "die Nebenkosten",
+          "der Vermieter",
+          "die Nachbarschaft"
+        ],
+        "progressPct": 20
+      },
+      {
+        "id": "voc-health",
+        "titleDe": "Gesundheit, Ernährung & Sport",
+        "titleEn": "Health, Nutrition & Fitness",
+        "targetWords": 280,
+        "masteredWords": 48,
+        "sampleWords": [
+          "die Ernährung",
+          "die Krankschreibung",
+          "das Rezept",
+          "sich bewegen",
+          "die Beschwerden",
+          "gesund leben"
+        ],
+        "progressPct": 17
+      },
+      {
+        "id": "voc-travel",
+        "titleDe": "Reisen, Verkehr & Mobilität",
+        "titleEn": "Travel, Transport & Mobility",
+        "targetWords": 280,
+        "masteredWords": 55,
+        "sampleWords": [
+          "die Verspätung",
+          "der Anschlusszug",
+          "die Unterkunft",
+          "buchen",
+          "der Nahverkehr",
+          "der Führerschein"
+        ],
+        "progressPct": 20
+      },
+      {
+        "id": "voc-environment",
+        "titleDe": "Umwelt, Natur & Konsum",
+        "titleEn": "Environment, Climate & Shopping",
+        "targetWords": 300,
+        "masteredWords": 32,
+        "sampleWords": [
+          "der Umweltschutz",
+          "Müll trennen",
+          "Strom sparen",
+          "nachhaltig",
+          "die Verpackung",
+          "umtauschen"
+        ],
+        "progressPct": 11
+      },
+      {
+        "id": "voc-media",
+        "titleDe": "Medien, Digitales & Kommunikation",
+        "titleEn": "Media, Internet & Communication",
+        "targetWords": 280,
+        "masteredWords": 40,
+        "sampleWords": [
+          "soziale Netzwerke",
+          "herunterladen",
+          "der Datenschutz",
+          "erreichen",
+          "die Nachricht",
+          "sich informieren"
+        ],
+        "progressPct": 14
+      },
+      {
+        "id": "voc-leisure",
+        "titleDe": "Freizeit, Kultur & Feste",
+        "titleEn": "Free Time, Culture & Celebrations",
+        "targetWords": 320,
+        "masteredWords": 64,
+        "sampleWords": [
+          "die Veranstaltung",
+          "einladen",
+          "der Ausflug",
+          "die Ausstellung",
+          "organisieren",
+          "sich freuen auf"
+        ],
+        "progressPct": 20
+      },
+      {
+        "id": "voc-education",
+        "titleDe": "Bildung, Lernen & Gesellschaft",
+        "titleEn": "Education, Learning & Society",
+        "targetWords": 340,
+        "masteredWords": 50,
+        "sampleWords": [
+          "die Ausbildung",
+          "die Prüfung bestehen",
+          "das Zeugnis",
+          "die Meinung",
+          "die Erfahrung",
+          "unterstützen"
+        ],
+        "progressPct": 15
+      },
+      {
+        "id": "voc-banking",
+        "titleDe": "Bank, Geld & Finanzen",
+        "titleEn": "Banking, Accounts & Transfers",
+        "targetWords": 260,
+        "masteredWords": 0,
+        "sampleWords": [
+          "das Girokonto",
+          "überweisen",
+          "der Dauerauftrag",
+          "die Kontoführungsgebühr",
+          "Geld abheben",
+          "der Kontoauszug"
+        ],
+        "progressPct": 0
+      },
+      {
+        "id": "voc-food",
+        "titleDe": "Essen, Trinken & Restaurant",
+        "titleEn": "Food, Dining & Restaurants",
+        "targetWords": 280,
+        "masteredWords": 0,
+        "sampleWords": [
+          "die Speisekarte",
+          "bestellen",
+          "das Trinkgeld",
+          "getrennt bezahlen",
+          "die Reservierung",
+          "die Beilage"
+        ],
+        "progressPct": 0
+      }
+    ],
+    "grammarStandards": [
+      {
+        "id": "gram-nebensatz",
+        "title": "Subordinate Clauses & Verb-Final Order",
+        "titleDe": "Nebensätze (weil, dass, obwohl, wenn, damit)",
+        "description": "Sending the conjugated verb reliably to the end in spoken & written clauses.",
+        "exampleDe": "Ich lerne jeden Tag, weil ich die B1-Prüfung bestehen möchte.",
+        "masteryPct": 20,
+        "practiceCount": 0
+      },
+      {
+        "id": "gram-konjunktiv2",
+        "title": "Konjunktiv II (Polite Proposals & Wishes)",
+        "titleDe": "Konjunktiv II (könnte, würde, hätte, wäre)",
+        "description": "Essential for Goethe B1 Teil 1 planning, polite requests, and hypotheticals.",
+        "exampleDe": "Wir könnten am Samstag zusammen einkaufen gehen. Wäre das gut?",
+        "masteryPct": 18,
+        "practiceCount": 0
+      },
+      {
+        "id": "gram-relativsatz",
+        "title": "Relative Clauses",
+        "titleDe": "Relativsätze (der, die, das, in dem, mit denen)",
+        "description": "Describing people, places, and things smoothly without chopping sentences.",
+        "exampleDe": "Das ist das Café, in dem wir uns letzte Woche getroffen haben.",
+        "masteryPct": 15,
+        "practiceCount": 0
+      },
+      {
+        "id": "gram-past",
+        "title": "Perfekt & Präteritum Storytelling",
+        "titleDe": "Vergangenheit (Perfekt & Präteritum)",
+        "description": "Narrating personal experiences naturally using haben/sein + war/hatte/konnte.",
+        "exampleDe": "Letztes Jahr war ich in München und habe dort viele Freunde besucht.",
+        "masteryPct": 28,
+        "practiceCount": 0
+      },
+      {
+        "id": "gram-passiv",
+        "title": "Passive Voice (Present & Past)",
+        "titleDe": "Passiv (Präsens & Präteritum)",
+        "description": "Understanding and expressing processes, rules, and news headlines.",
+        "exampleDe": "In Deutschland wird der Müll sehr genau getrennt.",
+        "masteryPct": 12,
+        "practiceCount": 0
+      },
+      {
+        "id": "gram-prepositions",
+        "title": "Verbs with Prepositions & Cases",
+        "titleDe": "Verben mit Präpositionen & Wechselpräpositionen",
+        "description": "Handling Dativ vs. Akkusativ and core B1 verbs (sich interessieren für, denken an, warten auf).",
+        "exampleDe": "Ich interessiere mich sehr für erneuerbare Energien.",
+        "masteryPct": 18,
+        "practiceCount": 0
+      },
+      {
+        "id": "gram-infinitiv-zu",
+        "title": "Infinitive Clauses (zu / um ... zu)",
+        "titleDe": "Infinitiv mit „zu“ & „um ... zu“",
+        "description": "Expressing purpose, plans, and opinions cleanly at B1 level.",
+        "exampleDe": "Es ist wichtig, regelmäßig Deutsch zu sprechen, um sicherer zu werden.",
+        "masteryPct": 16,
+        "practiceCount": 0
+      },
+      {
+        "id": "gram-adjectives",
+        "title": "Adjective Endings & Comparisons",
+        "titleDe": "Adjektivdeklination & Komparativ/Superlativ",
+        "description": "Comparing options (City vs. Countryside, Homeoffice vs. Office) accurately.",
+        "exampleDe": "Das Leben auf dem Land ist ruhiger als in einer großen Stadt.",
+        "masteryPct": 22,
+        "practiceCount": 0
+      }
+    ],
+    "history": []
+  },
+  "sessions": [],
+  "drillHistory": [],
+  "freeChats": []
+}

@@ -1,0 +1,290 @@
+import { ReadingArticle } from "./reading-articles-bank";
+
+/**
+ * 7 curated B1 German reading articles tailored for fresh graduates (especially AI / Tech Master's grads)
+ * job-searching and preparing applications & interviews in Germany (voc-jobsearch).
+ */
+export const READING_ARTICLES_EXPANSION_D: ReadingArticle[] = [
+  {
+    id: "read-b1-job-01",
+    categoryId: "voc-jobsearch",
+    level: "B1",
+    titleDe: "Der deutsche Lebenslauf: Worauf Personaler bei KI- und Tech-Absolventen achten",
+    titleEn: "The German CV: What Recruiters Look For in AI and Tech Graduates",
+    summaryEn: "Covers German CV conventions for fresh tech graduates: reverse-chronological order, measurable project impact, GitHub links, and ATS keywords.",
+    sourceStyle: "Karriere & Tech-Bewerbung / Deutschland.de Style (B1)",
+    sourceUrl: "https://www.make-it-in-germany.com/de/arbeiten-in-deutschland/jobsuche/bewerbung",
+    readingMinutes: 3,
+    paragraphs: [
+      {
+        de: "Wer nach dem Masterstudium in Deutschland eine Vollzeitstelle sucht, merkt schnell: Der Lebenslauf ist die wichtigste Eintrittskarte zum ersten Gespräch. Personalverantwortliche nehmen sich beim ersten Blick oft nur dreißig bis sechzig Sekunden Zeit. Deshalb sollte ein deutscher Lebenslauf klar strukturiert, übersichtlich und umgekehrt chronologisch aufgebaut sein – die aktuellsten Erfahrungen stehen also ganz oben.",
+        en: "Anyone searching for a full-time job in Germany after a Master's degree quickly notices: the CV is the most important entry ticket to the first interview. HR managers often take only thirty to sixty seconds on their first glance. Therefore, a German CV should be clearly structured, easy to scan, and arranged in reverse chronological order — so the most recent experiences appear right at the top.",
+      },
+      {
+        de: "Gerade für Berufseinsteiger aus dem Bereich Künstliche Intelligenz oder Informatik gilt: Statt nur abstrakte Vorlesungen aufzulisten, überzeugen konkrete Projekte mit messbaren Ergebnissen. Ein Link zu einem sauberen GitHub-Profil, die Masterarbeit in zwei klaren Stichpunkten und relevante Werkstudentenstellen zeigen sofort, dass man Theorie in echte Lösungen umsetzen kann. Außerdem sollte man Schlüsselbegriffe aus der Stellenanzeige gezielt im eigenen Lebenslauf aufgreifen.",
+        en: "Especially for entry-level graduates in Artificial Intelligence or Computer Science, the rule applies: instead of only listing abstract university lectures, concrete projects with measurable results convince recruiters. A link to a clean GitHub profile, the Master's thesis in two clear bullet points, and relevant working-student roles immediately show that you can turn theory into real solutions. You should also deliberately pick up keywords from the job posting in your own CV.",
+      },
+      {
+        de: "Eine typische Frage internationaler Bewerber lautet: Braucht man ein Bewerbungsfoto? Rechtlich ist es in Deutschland nicht Pflicht, aber ein freundliches, professionelles Foto wirkt bei vielen Firmen weiterhin sympathisch. Noch entscheidender sind jedoch fehlerfreie Sprache, ein einheitliches Layout von maximal zwei Seiten und eine ehrliche Angabe zum aktuellen Sprachniveau – zum Beispiel „Deutsch: B1 (aktiv im Ausbau), Englisch: fließend“.",
+        en: "A typical question from international applicants is: do you need an application photo? Legally it is not mandatory in Germany, yet a friendly, professional photo still makes a warm impression at many companies. Even more decisive, however, are error-free language, a clean layout of at most two pages, and an honest indication of your current language level — for example 'German: B1 (actively improving), English: fluent'.",
+      },
+    ],
+    glossary: [
+      { word: "Eintrittskarte", baseForm: "die Eintrittskarte, -n", meaningEn: "entry ticket / gateway", partOfSpeech: "Noun", exampleDe: "Ein klarer Lebenslauf ist die Eintrittskarte zum Vorstellungsgespräch." },
+      { word: "Berufseinsteiger", baseForm: "der Berufseinsteiger, -", meaningEn: "career starter / entry-level graduate", partOfSpeech: "Noun", exampleDe: "Viele Firmen bieten spezielle Programme für Berufseinsteiger an." },
+      { word: "messbaren", baseForm: "messbar", meaningEn: "measurable", partOfSpeech: "Adjective", exampleDe: "Beschreiben Sie Ihre Projekte am besten mit messbaren Ergebnissen." },
+      { word: "Stichpunkten", baseForm: "der Stichpunkt, -e", meaningEn: "bullet point", partOfSpeech: "Noun", exampleDe: "Fassen Sie Ihre Masterarbeit in zwei prägnanten Stichpunkten zusammen." },
+      { word: "Stellenanzeige", baseForm: "die Stellenanzeige, -n", meaningEn: "job posting / job ad", partOfSpeech: "Noun", exampleDe: "Lesen Sie die Anforderungen in der Stellenanzeige sehr sorgfältig." },
+      { word: "Sprachniveau", baseForm: "das Sprachniveau, -s", meaningEn: "language proficiency level", partOfSpeech: "Noun", exampleDe: "Geben Sie Ihr Sprachniveau im Lebenslauf ehrlich und realistisch an." },
+    ],
+    transferExpressions: [
+      { de: "In meiner Masterarbeit habe ich Theorie erfolgreich in eine praktische Lösung umgesetzt.", en: "In my Master's thesis I successfully turned theory into a practical solution.", useIn: "Beides" },
+      { de: "Konkrete Projekte mit messbaren Ergebnissen überzeugen mehr als lange Theorie.", en: "Concrete projects with measurable results convince more than long theory.", useIn: "Sprechen" },
+      { de: "Mein Deutsch ist aktuell auf B1-Niveau und ich baue es täglich aktiv aus.", en: "My German is currently at B1 level and I am actively expanding it every day.", useIn: "Beides" },
+    ],
+    speakingWritingPromptDe: "Wie würden Sie Ihre Masterarbeit oder Ihr bestes KI-Projekt in 2–3 einfachen deutschen Sätzen erklären?",
+    speakingWritingPromptEn: "How would you explain your Master's thesis or best AI project in 2–3 simple German sentences?",
+    source: "curated",
+  },
+  {
+    id: "read-b1-job-02",
+    categoryId: "voc-jobsearch",
+    level: "B1",
+    titleDe: "Anschreiben, das überzeugt: Wie man als Absolvent ohne lange Berufserfahrung punktet",
+    titleEn: "A Cover Letter That Convinces: How Fresh Graduates Stand Out Without Long Experience",
+    summaryEn: "Shows fresh graduates how to turn academic projects, fast learning, and genuine company research into a compelling German cover letter.",
+    sourceStyle: "Bewerbungstraining / Make-it-in-Germany Style (B1)",
+    sourceUrl: "https://www.make-it-in-germany.com/de/arbeiten-in-deutschland/jobsuche/bewerbung",
+    readingMinutes: 3,
+    paragraphs: [
+      {
+        de: "Viele frische Absolventinnen und Absolventen zweifeln beim Schreiben einer Bewerbung: „In der Stellenanzeige stehen zwei Jahre Erfahrung – soll ich mich überhaupt bewerben?“ Karriereberater antworten klar mit Ja! Eine Stellenanzeige beschreibt meistens ein Wunschprofil. Wer siebzig Prozent der Anforderungen erfüllt und echte Motivation zeigt, hat oft sehr gute Chancen auf eine Einladung.",
+        en: "Many fresh graduates hesitate when writing an application: 'The job ad asks for two years of experience — should I even apply?' Career advisors answer clearly with yes! A job posting usually describes a wish list. Anyone who meets seventy percent of the requirements and shows genuine motivation often has very good chances of getting an invitation.",
+      },
+      {
+        de: "Im Anschreiben sollte man nicht einfach den Lebenslauf noch einmal in ganzen Sätzen nacherzählen. Viel wirkungsvoller ist es, drei zentrale Fragen auf einer einzigen Seite zu beantworten: Warum begeistert mich genau dieses Unternehmen? Welches konkrete Projekt aus meinem Masterstudium beweist meine Fähigkeiten? Und welchen Mehrwert kann ich dem Team vom ersten Monat an bringen?",
+        en: "In the cover letter you should not simply retell your CV again in full sentences. It is much more effective to answer three central questions on a single page: why does this specific company excite me? Which concrete project from my Master's degree proves my abilities? And what added value can I bring to the team from the first month on?",
+      },
+      {
+        de: "Besonders negativ fallen dagegen kopierte Standardbriefe auf, bei denen nur der Firmenname ausgetauscht wurde. Wer stattdessen kurz auf ein aktuelles Produkt der Firma eingeht, seine schnelle Auffassungsgabe durch praktische Beispiele belegt und freundlich um ein persönliches Kennenlerngespräch bittet, hebt sich sofort positiv von dutzenden Standardbewerbungen ab.",
+        en: "Copied generic letters where only the company name was swapped stand out especially negatively. Anyone who instead briefly refers to a current product of the company, backs up their quick learning ability with practical examples, and politely asks for a personal introductory chat immediately stands out positively from dozens of standard applications.",
+      },
+    ],
+    glossary: [
+      { word: "Absolventinnen", baseForm: "der Absolvent, -en / die Absolventin, -nen", meaningEn: "university graduate", partOfSpeech: "Noun", exampleDe: "Als frischer Absolvent im Bereich KI suche ich eine spannende Einstiegsstelle." },
+      { word: "Anforderungen", baseForm: "die Anforderung, -en", meaningEn: "requirement / qualification", partOfSpeech: "Noun", exampleDe: "Ich erfülle die wichtigsten fachlichen Anforderungen dieser Position." },
+      { word: "Mehrwert", baseForm: "der Mehrwert (Sg.)", meaningEn: "added value", partOfSpeech: "Noun", exampleDe: "Durch meine Projekterfahrung möchte ich dem Team echten Mehrwert bieten." },
+      { word: "Auffassungsgabe", baseForm: "die Auffassungsgabe (Sg.)", meaningEn: "ability to grasp things quickly", partOfSpeech: "Noun", exampleDe: "Dank meiner schnellen Auffassungsgabe arbeite ich mich rasch in neue Tools ein." },
+      { word: "hebt sich ... ab", baseForm: "sich abheben von (+ Dat.)", meaningEn: "to stand out from", partOfSpeech: "Verb", exampleDe: "Mit einem individuellen Anschreiben hebt man sich positiv von anderen Bewerbern ab." },
+    ],
+    transferExpressions: [
+      { de: "Eine Stellenanzeige beschreibt meistens ein Wunschprofil – man sollte sich trotzdem mutig bewerben.", en: "A job ad usually describes a wish list — you should still apply bravely.", useIn: "Sprechen" },
+      { de: "Durch meine praktischen KI-Projekte möchte ich Ihrem Team echten Mehrwert bieten.", en: "Through my practical AI projects I would like to offer real added value to your team.", useIn: "Schreiben" },
+      { de: "Über eine Einladung zu einem persönlichen Kennenlerngespräch freue ich mich sehr.", en: "I would be very happy to receive an invitation to a personal introductory interview.", useIn: "Schreiben" },
+    ],
+    speakingWritingPromptDe: "Warum sollte eine Firma gerade Sie als frischen KI-Master-Absolventen einstellen? Nennen Sie 2 starke Gründe!",
+    speakingWritingPromptEn: "Why should a company hire you specifically as a fresh AI Master's graduate? Name 2 strong reasons!",
+    source: "curated",
+  },
+  {
+    id: "read-b1-job-03",
+    categoryId: "voc-jobsearch",
+    level: "B1",
+    titleDe: "Sich selbst vorstellen im Interview: Der perfekte 2-Minuten-Pitch auf Deutsch",
+    titleEn: "Introducing Yourself in an Interview: The Perfect 2-Minute Pitch in German",
+    summaryEn: "Teaches the Present–Past–Future formula to answer 'Erzählen Sie kurz etwas über sich!' smoothly without freezing.",
+    sourceStyle: "Interview-Coaching / Karriere-Magazin (B1)",
+    sourceUrl: "https://www.make-it-in-germany.com/de/arbeiten-in-deutschland/jobsuche/vorstellungsgespraech",
+    readingMinutes: 3,
+    paragraphs: [
+      {
+        de: "Fast jedes deutsche Vorstellungsgespräch beginnt mit demselben Eisbrecher: „Schön, dass Sie da sind! Erzählen Sie doch zum Einstieg kurz etwas über sich.“ Genau diese offene Frage entscheidet oft über den ersten Eindruck. Wer unvorbereitet drauflosredet, verliert schnell den roten Faden – wer aber eine klare Zwei-Minuten-Struktur im Kopf hat, startet ruhig und souverän.",
+        en: "Almost every German job interview starts with the exact same icebreaker: 'Nice that you're here! To start off, tell us briefly something about yourself.' Precisely this open question often decides the first impression. Anyone who starts talking unprepared quickly loses the thread — yet anyone who has a clear two-minute structure in mind starts calmly and confidently.",
+      },
+      {
+        de: "Besonders bewährt hat sich die Formel „Gegenwart – Vergangenheit – Zukunft“. Zuerst sagt man kurz, wo man heute steht: „Ich habe vor kurzem meinen Master in Künstlicher Intelligenz abgeschlossen und mich dabei auf praktische Anwendungen spezialisiert.“ Danach nennt man ein oder zwei Highlights aus dem Studium oder einem Praktikum, die genau zur ausgeschriebenen Stelle passen.",
+        en: "The 'Present – Past – Future' formula has proven especially effective. First you say briefly where you stand today: 'I recently completed my Master's in Artificial Intelligence and specialized in practical applications.' Afterward you mention one or two highlights from university or an internship that match the advertised role exactly.",
+      },
+      {
+        de: "Zum Abschluss schlägt man die Brücke in die Zukunft – also zu genau diesem Unternehmen: „Jetzt möchte ich mein Wissen in einem innovativen Team einsetzen und an Produkten arbeiten, die echten Nutzern helfen. Deshalb hat mich Ihre Stelle sofort begeistert.“ Wenn man diesen kurzen Pitch zehnmal laut vor dem Spiegel übt, verschwindet die Anfangsnervosität fast wie von selbst.",
+        en: "To finish, you build the bridge to the future — meaning to this exact company: 'Now I would like to apply my knowledge in an innovative team and work on products that help real users. That's why your position excited me immediately.' If you practice this short pitch out loud ten times in front of the mirror, initial nervousness disappears almost all by itself.",
+      },
+    ],
+    glossary: [
+      { word: "Eisbrecher", baseForm: "der Eisbrecher, -", meaningEn: "icebreaker", partOfSpeech: "Noun", exampleDe: "Die Frage nach dem eigenen Werdegang ist der klassische Eisbrecher." },
+      { word: "roten Faden", baseForm: "der rote Faden (Idiom)", meaningEn: "common thread / clear structure", partOfSpeech: "Phrase", exampleDe: "Mit drei klaren Punkten behält man beim Sprechen immer den roten Faden." },
+      { word: "souverän", baseForm: "souverän", meaningEn: "confident / poised / self-assured", partOfSpeech: "Adjective", exampleDe: "Dank guter Vorbereitung wirkte sie im Gespräch völlig ruhig und souverän." },
+      { word: "bewährt", baseForm: "sich bewähren (bewährte sich, hat sich bewährt)", meaningEn: "to prove effective / stand the test", partOfSpeech: "Verb", exampleDe: "Diese einfache Struktur hat sich in vielen Interviews bewährt." },
+      { word: "ausgeschriebenen", baseForm: "ausgeschrieben (Stelle)", meaningEn: "advertised / posted (job)", partOfSpeech: "Adjective", exampleDe: "Betonen Sie Erfahrungen, die genau zur ausgeschriebenen Stelle passen." },
+    ],
+    transferExpressions: [
+      { de: "Ich habe vor kurzem meinen Master in Künstlicher Intelligenz abgeschlossen.", en: "I recently completed my Master's degree in Artificial Intelligence.", useIn: "Beides" },
+      { de: "Jetzt möchte ich mein Wissen in einem Team einsetzen und an echten Produkten arbeiten.", en: "Now I want to apply my knowledge in a team and work on real products.", useIn: "Sprechen" },
+      { de: "Deshalb hat mich Ihre ausgeschriebene Stelle sofort begeistert.", en: "That is why your advertised position excited me immediately.", useIn: "Beides" },
+    ],
+    speakingWritingPromptDe: "Üben Sie jetzt laut Ihren 60-Sekunden-Pitch auf Deutsch nach der Formel Gegenwart → Vergangenheit → Zukunft!",
+    speakingWritingPromptEn: "Practice your 60-second pitch out loud in German right now using Present → Past → Future!",
+    source: "curated",
+  },
+  {
+    id: "read-b1-job-04",
+    categoryId: "voc-jobsearch",
+    level: "B1",
+    titleDe: "Bewerbungsprozess in der Tech-Branche: Vom Kennenlerngespräch bis zur Zusage",
+    titleEn: "Hiring Process in Tech: From Screening Call to Job Offer",
+    summaryEn: "Demystifies Germany's typical 3-step tech hiring stages, coding/case interviews, feedback timelines, and the 6-month Probezeit.",
+    sourceStyle: "Tech-Karriere / DW Style (B1)",
+    sourceUrl: "https://www.make-it-in-germany.com/de/arbeiten-in-deutschland/jobsuche/vorstellungsgespraech",
+    readingMinutes: 3,
+    paragraphs: [
+      {
+        de: "Wer sich in Deutschland auf eine Stelle im KI- oder Softwarebereich bewirbt, durchläuft meistens ein mehrstufiges Auswahlverfahren. Der erste Schritt ist häufig ein kurzes Kennenlerngespräch per Video mit der Personalabteilung, das zwanzig bis dreißig Minuten dauert. Dabei geht es um Motivation, Sprachkenntnisse, möglichen Starttermin und erste Gehaltsvorstellungen.",
+        en: "Anyone applying for a position in the AI or software field in Germany usually goes through a multi-stage selection process. The first step is often a short video screening call with HR lasting twenty to thirty minutes. It covers motivation, language skills, possible start date, and initial salary expectations.",
+      },
+      {
+        de: "Im zweiten Schritt folgt das Fachinterview mit zukünftigen Kolleginnen oder dem Teamleiter. Oft bekommt man außerdem eine kleine praxisnahe Probeaufgabe oder bespricht gemeinsam ein eigenes KI-Projekt im Detail. Wichtig dabei: Die Prüfer wollen gar nicht nur die perfekte Lösung sehen, sondern vor allem verstehen, wie man denkt, Probleme zerlegt und Entscheidungen begründet.",
+        en: "In the second step follows the technical interview with future colleagues or the team lead. Often you also receive a small practical take-home task or discuss one of your own AI projects together in detail. Important here: interviewers do not just want to see the perfect solution, but above all want to understand how you think, break down problems, and justify decisions.",
+      },
+      {
+        de: "Wenn auch das abschließende Teamgespräch gut läuft, erhält man ein schriftliches Vertragsangebot. Üblich in Deutschland ist eine sechsmonatige Probezeit, in der beide Seiten prüfen können, ob die Zusammenarbeit passt. Und ein wichtiger Rat für zwischendurch: Falls nach einer Woche noch keine Rückmeldung kommt, ist eine kurze, freundliche Nachfrage per E-Mail völlig normal und zeigt echtes Interesse.",
+        en: "If the final team interview goes well too, you receive a written contract offer. Standard in Germany is a six-month probation period during which both sides can check whether working together fits. And one important piece of advice in between: if no reply arrives after a week, a short, friendly follow-up by email is completely normal and shows genuine interest.",
+      },
+    ],
+    glossary: [
+      { word: "Auswahlverfahren", baseForm: "das Auswahlverfahren, -", meaningEn: "selection / hiring process", partOfSpeech: "Noun", exampleDe: "Das Auswahlverfahren bei großen Firmen besteht oft aus drei Runden." },
+      { word: "Gehaltsvorstellungen", baseForm: "die Gehaltsvorstellung, -en", meaningEn: "salary expectation", partOfSpeech: "Noun", exampleDe: "Informieren Sie sich vor dem Gespräch über realistische Gehaltsvorstellungen." },
+      { word: "Probeaufgabe", baseForm: "die Probeaufgabe, -n", meaningEn: "practical test / case challenge", partOfSpeech: "Noun", exampleDe: "Nach dem ersten Gespräch bekam ich eine spannende kleine Probeaufgabe." },
+      { word: "zerlegt", baseForm: "zerlegen (zerlegte, hat zerlegt)", meaningEn: "to break down / decompose", partOfSpeech: "Verb", exampleDe: "Bei komplexen Problemen zerlege ich die Aufgabe zuerst in kleine Schritte." },
+      { word: "Probezeit", baseForm: "die Probezeit, -en", meaningEn: "probation period", partOfSpeech: "Noun", exampleDe: "In Deutschland dauert die Probezeit im Arbeitsvertrag meist sechs Monate." },
+      { word: "Rückmeldung", baseForm: "die Rückmeldung, -en", meaningEn: "feedback / reply", partOfSpeech: "Noun", exampleDe: "Vielen Dank für das angenehme Gespräch – ich freue mich auf Ihre Rückmeldung." },
+    ],
+    transferExpressions: [
+      { de: "Bei komplexen Problemen zerlege ich die Aufgabe zuerst in kleine, klare Schritte.", en: "With complex problems I first break the task down into small, clear steps.", useIn: "Sprechen" },
+      { de: "Ich wollte mich kurz erkundigen, wie der aktuelle Stand meiner Bewerbung ist.", en: "I wanted to briefly inquire about the current status of my application.", useIn: "Schreiben" },
+      { de: "In der Probezeit können beide Seiten prüfen, ob die Zusammenarbeit gut passt.", en: "During probation both sides can check whether working together fits well.", useIn: "Beides" },
+    ],
+    speakingWritingPromptDe: "Welcher Schritt im Bewerbungsprozess fällt Ihnen am leichtesten und welcher macht Sie am nervösesten?",
+    speakingWritingPromptEn: "Which stage of the hiring process feels easiest to you and which makes you most nervous?",
+    source: "curated",
+  },
+  {
+    id: "read-b1-job-05",
+    categoryId: "voc-jobsearch",
+    level: "B1",
+    titleDe: "Mehr Chancen als Berufseinsteiger: Wie Portfolio, LinkedIn und Netzwerken Türen öffnen",
+    titleEn: "More Chances as a New Grad: How Portfolio, LinkedIn, and Networking Open Doors",
+    summaryEn: "Actionable ways to grow interview invitations beyond mass-applying: live demos, Mittelstand companies, and networking.",
+    sourceStyle: "Jobsuche-Strategie / Karriere-Blog (B1)",
+    sourceUrl: "https://www.make-it-in-germany.com/de/arbeiten-in-deutschland/jobsuche",
+    readingMinutes: 3,
+    paragraphs: [
+      {
+        de: "Wer nur hundert Standardbewerbungen über große Jobportale abschickt, bekommt leider oft viele automatische Absagen – besonders in einem umkämpften Markt für Junior-Stellen. Deutlich erfolgreicher sind Absolventen, die Qualität über Masse stellen und sich gezielt sichtbar machen. Gerade im Bereich KI zählt ein sichtbares Portfolio enorm: Zwei oder drei laufende Demos – etwa eine echte KI-App, die ein alltägliches Problem löst – sagen mehr als tausend Worte im Lebenslauf.",
+        en: "Anyone who simply sends out a hundred standard applications through big job portals unfortunately often receives many automated rejections — especially in a competitive market for junior roles. Significantly more successful are graduates who put quality over quantity and make themselves strategically visible. Especially in AI, a visible portfolio counts enormously: two or three live demos — such as a real AI app solving an everyday problem — say more than a thousand words on a CV.",
+      },
+      {
+        de: "Ein zweiter Erfolgsfaktor in Deutschland ist der Blick auf den sogenannten Mittelstand – also innovative mittelgroße Unternehmen außerhalb der fünf bekanntesten Großkonzerne. Dort bewerben sich oft deutlich weniger Kandidaten pro Stelle, und Berufseinsteiger dürfen schneller echte Verantwortung übernehmen. Auch eine höfliche Initiativbewerbung bei einer spannenden Firma ohne offene Anzeige führt überraschend oft zu einem Gespräch.",
+        en: "A second success factor in Germany is looking at the so-called Mittelstand — meaning innovative mid-sized companies outside the five best-known corporations. There, significantly fewer candidates often apply per role, and new graduates get to take on real responsibility faster. A polite unsolicited application (Initiativbewerbung) to an exciting company without an open listing also leads surprisingly often to an interview.",
+      },
+      {
+        de: "Schließlich unterschätzen viele die Kraft von Netzwerken: Ein gepflegtes zweisprachiges LinkedIn-Profil, lokale Tech-Meetups, Karrieremessen an der Universität oder ein kurzes Gespräch mit Alumni öffnen oft den verdeckten Stellenmarkt. Viele Jobs werden nämlich zuerst über persönliche Empfehlungen besetzt, noch bevor überhaupt eine Anzeige veröffentlicht wird.",
+        en: "Finally, many underestimate the power of networking: a well-maintained bilingual LinkedIn profile, local tech meetups, university career fairs, or a brief chat with alumni often open the hidden job market. Many jobs are in fact filled first via personal recommendations even before a listing is ever published.",
+      },
+    ],
+    glossary: [
+      { word: "Absagen", baseForm: "die Absage, -n", meaningEn: "rejection / cancellation", partOfSpeech: "Noun", exampleDe: "Absagen gehören zur Jobsuche dazu – man darf nicht aufgeben." },
+      { word: "umkämpften", baseForm: "umkämpft", meaningEn: "competitive / fiercely contested", partOfSpeech: "Adjective", exampleDe: "Der Markt für Einstiegsstellen ist aktuell ziemlich umkämpft." },
+      { word: "Mittelstand", baseForm: "der Mittelstand (Sg.)", meaningEn: "mid-sized companies (backbone of German economy)", partOfSpeech: "Noun", exampleDe: "Der deutsche Mittelstand bietet spannende Stellen mit viel Verantwortung." },
+      { word: "Initiativbewerbung", baseForm: "die Initiativbewerbung, -en", meaningEn: "unsolicited / speculative application", partOfSpeech: "Noun", exampleDe: "Mit einer gezielten Initiativbewerbung zeigt man echte Eigeninitiative." },
+      { word: "Empfehlungen", baseForm: "die Empfehlung, -en", meaningEn: "recommendation / referral", partOfSpeech: "Noun", exampleDe: "Viele offene Stellen werden über persönliche Empfehlungen besetzt." },
+    ],
+    transferExpressions: [
+      { de: "Zwei oder drei laufende Projekte sagen oft mehr als tausend Worte im Lebenslauf.", en: "Two or three live projects often say more than a thousand words on a CV.", useIn: "Sprechen" },
+      { de: "Ich bewerbe mich initiativ, weil mich Ihre Produkte im Bereich KI sehr begeistern.", en: "I am applying speculatively because your products in AI really excite me.", useIn: "Schreiben" },
+      { de: "Bei mittelgroßen Firmen darf man als Einsteiger oft schneller Verantwortung übernehmen.", en: "At mid-sized companies, new grads often get to take on responsibility faster.", useIn: "Beides" },
+    ],
+    speakingWritingPromptDe: "Welches eigene Projekt (z. B. Ihre KI-App oder Masterarbeit) möchten Sie Firmen unbedingt als Demo zeigen?",
+    speakingWritingPromptEn: "Which personal project (e.g., your AI app or Master's thesis) do you definitely want to showcase to companies?",
+    source: "curated",
+  },
+  {
+    id: "read-b1-job-06",
+    categoryId: "voc-jobsearch",
+    level: "B1",
+    titleDe: "Klassische Fragen im Interview: Stärken, Schwächen und wie man ehrlich überzeugt",
+    titleEn: "Classic Interview Questions: Strengths, Weaknesses, and Convincing Honestly",
+    summaryEn: "Prepares natural B1 German answers to the trickiest standard HR questions without sounding rehearsed or cliché.",
+    sourceStyle: "Interview-Vorbereitung / Karriere-Guide (B1)",
+    sourceUrl: "https://www.make-it-in-germany.com/de/arbeiten-in-deutschland/jobsuche/vorstellungsgespraech",
+    readingMinutes: 3,
+    paragraphs: [
+      {
+        de: "Bestimmte Fragen tauchen in fast jedem deutschen Vorstellungsgespräch auf: „Was sind Ihre größten Stärken und Schwächen?“, „Warum möchten Sie gerade bei uns arbeiten?“ oder „Wie gehen Sie mit schwierigen Problemen um?“. Personaler stellen diese Fragen nicht, um Bewerber auszutricksen, sondern um Selbstreflexion, Ehrlichkeit und Teamfähigkeit kennenzulernen.",
+        en: "Certain questions pop up in almost every German job interview: 'What are your greatest strengths and weaknesses?', 'Why do you want to work specifically for us?', or 'How do you handle difficult problems?'. Recruiters don't ask these questions to trick applicants, but to get to know self-reflection, honesty, and teamwork ability.",
+      },
+      {
+        de: "Bei den Stärken reichen keine leeren Schlagwörter wie „Ich bin teamfähig und flexibel“. Besser ist immer ein konkretes Beispiel: „Eine meiner Stärken ist strukturiertes Problemlösen – in meinem letzten KI-Projekt habe ich zum Beispiel einen Fehler in den Trainingsdaten gefunden, wodurch die Genauigkeit um fünfzehn Prozent gestiegen ist.“ Konkrete Geschichten bleiben im Gedächtnis!",
+        en: "For strengths, empty buzzwords like 'I'm a team player and flexible' are not enough. A concrete example is always better: 'One of my strengths is structured problem-solving — in my last AI project, for example, I found a bug in the training data, which increased accuracy by fifteen percent.' Concrete stories stick in memory!",
+      },
+      {
+        de: "Und bei den Schwächen? Klischees wie „Ich bin leider zu perfektionistisch“ wirken selten glaubwürdig. Viel überzeugender ist eine echte, kleine Lernbaustelle – zusammen mit dem Schritt, den man bereits dagegen unternimmt: „Mein gesprochenes Deutsch ist noch nicht perfekt, deshalb trainiere ich jeden Tag gezielt Gespräche und lese deutsche Fachtexte, um im Team immer sicherer zu kommunizieren.“",
+        en: "And for weaknesses? Clichés like 'I'm unfortunately too perfectionist' rarely sound credible. Much more convincing is a real, small area for growth — together with the step you are already taking to improve it: 'My spoken German isn't perfect yet, so I practice conversations every day and read German specialist texts to communicate more and more confidently on the team.'",
+      },
+    ],
+    glossary: [
+      { word: "Selbstreflexion", baseForm: "die Selbstreflexion (Sg.)", meaningEn: "self-reflection", partOfSpeech: "Noun", exampleDe: "Ehrliche Antworten zeigen Reife und gute Selbstreflexion." },
+      { word: "Teamfähigkeit", baseForm: "die Teamfähigkeit (Sg.)", meaningEn: "ability to work in a team", partOfSpeech: "Noun", exampleDe: "Neben Fachwissen ist Teamfähigkeit im Arbeitsalltag besonders wichtig." },
+      { word: "Schlagwörter", baseForm: "das Schlagwort, -wörter", meaningEn: "buzzword / catchphrase", partOfSpeech: "Noun", exampleDe: "Nutzen Sie lieber echte Beispiele statt leerer Schlagwörter." },
+      { word: "Genauigkeit", baseForm: "die Genauigkeit (Sg.)", meaningEn: "accuracy / precision", partOfSpeech: "Noun", exampleDe: "Durch bessere Daten stieg die Genauigkeit unseres Modells deutlich." },
+      { word: "glaubwürdig", baseForm: "glaubwürdig", meaningEn: "credible / believable", partOfSpeech: "Adjective", exampleDe: "Eine ehrliche Antwort wirkt immer glaubwürdiger als ein Klischee." },
+    ],
+    transferExpressions: [
+      { de: "Eine meiner größten Stärken ist strukturiertes Problemlösen – ein Beispiel dafür ist ...", en: "One of my biggest strengths is structured problem-solving — an example of this is ...", useIn: "Sprechen" },
+      { de: "Daran arbeite ich aktiv, indem ich jeden Tag gezielt übe.", en: "I'm actively working on that by practicing purposefully every day.", useIn: "Beides" },
+      { de: "Konkrete Beispiele aus eigenen Projekten bleiben im Gedächtnis.", en: "Concrete examples from your own projects stick in memory.", useIn: "Schreiben" },
+    ],
+    speakingWritingPromptDe: "Formulieren Sie auf Deutsch eine echte Stärke (mit Beispiel) und eine ehrliche Lernbaustelle (mit Ihrem Fortschritt)!",
+    speakingWritingPromptEn: "Formulate in German one real strength (with example) and one honest growth area (with your progress)!",
+    source: "curated",
+  },
+  {
+    id: "read-b1-job-07",
+    categoryId: "voc-jobsearch",
+    level: "B1",
+    titleDe: "Deutsch im Job-Interview: Wie man auch mit B1-Niveau kompetent und ruhig wirkt",
+    titleEn: "German in a Job Interview: How to Sound Competent and Calm Even at B1 Level",
+    summaryEn: "Practical communication toolkit for interviewing in German at B1: short clear sentences, smart pause phrases, and follow-up emails.",
+    sourceStyle: "Sprach-Coaching / Berufsalltag (B1)",
+    sourceUrl: "https://www.vhs-lernportal.de/",
+    readingMinutes: 3,
+    paragraphs: [
+      {
+        de: "Viele internationale Absolventen haben große Angst vor einem Vorstellungsgespräch auf Deutsch, weil sie fürchten, nach Wörtern suchen zu müssen oder kleine Grammatikfehler zu machen. Doch in vielen Tech- und KI-Teams wissen die Gesprächspartner genau, wie anspruchsvoll die deutsche Sprache ist – sie achten viel mehr auf Klarheit, Engagement und Fachkompetenz als auf fehlerfreie Nebensätze.",
+        en: "Many international graduates are very afraid of a job interview in German because they fear having to search for words or making small grammar mistakes. Yet in many tech and AI teams, interviewers know very well how demanding the German language is — they pay much more attention to clarity, dedication, and technical competence than to flawless subordinate clauses.",
+      },
+      {
+        de: "Ein super Trick gegen Stress sind ein paar sichere „Zeitgewinner“-Sätze, die man im Schlaf beherrscht: „Das ist eine sehr gute Frage – lassen Sie mich kurz überlegen“, „Könnten Sie diesen Punkt bitte kurz anders formulieren?“ oder „Ich erkläre das am liebsten an einem konkreten Beispiel“. Und wenn bei einem tiefen KI-Thema ein Fachbegriff fehlt, darf man ruhig sympathisch fragen: „Darf ich dieses technische Detail kurz auf Englisch erklären?“",
+        en: "A great trick against stress is a few reliable 'time-buying' phrases you know in your sleep: 'That's a very good question — let me think for a moment', 'Could you please rephrase that point briefly?', or 'I prefer explaining that with a concrete example'. And if a specialist term is missing on a deep AI topic, you can warmly ask: 'May I briefly explain this technical detail in English?'",
+      },
+      {
+        de: "Nach dem Gespräch rundet eine kurze, höfliche Dankes-E-Mail innerhalb von vierundzwanzig Stunden den positiven Eindruck ab: Man bedankt sich für die angenehme Atmosphäre, erwähnt ein interessantes Detail aus dem Gespräch und betont noch einmal das große Interesse an der Aufgabe. Genau solche professionellen Kleinigkeiten bleiben Personalern positiv in Erinnerung.",
+        en: "After the interview, a short, polite thank-you email within twenty-four hours rounds off the positive impression: you thank them for the pleasant atmosphere, mention an interesting detail from the conversation, and emphasize once more your strong interest in the role. Precisely such professional small touches stay positively in recruiters' memory.",
+      },
+    ],
+    glossary: [
+      { word: "Fachkompetenz", baseForm: "die Fachkompetenz (Sg.)", meaningEn: "technical / professional expertise", partOfSpeech: "Noun", exampleDe: "Ihre Fachkompetenz im Bereich Machine Learning hat das Team überzeugt." },
+      { word: "anspruchsvoll", baseForm: "anspruchsvoll", meaningEn: "demanding / challenging", partOfSpeech: "Adjective", exampleDe: "Ich suche eine anspruchsvolle Aufgabe, bei der ich viel lernen kann." },
+      { word: "anders formulieren", baseForm: "etwas anders formulieren", meaningEn: "to rephrase / put differently", partOfSpeech: "Phrase", exampleDe: "Könnten Sie die Frage bitte kurz anders formulieren?" },
+      { word: "Fachbegriff", baseForm: "der Fachbegriff, -e", meaningEn: "technical term / jargon", partOfSpeech: "Noun", exampleDe: "In der IT werden viele englische Fachbegriffe auch auf Deutsch genutzt." },
+      { word: "Dankes-E-Mail", baseForm: "die Dankes-E-Mail, -s", meaningEn: "thank-you / follow-up email", partOfSpeech: "Noun", exampleDe: "Eine kurze Dankes-E-Mail nach dem Gespräch macht einen tollen Eindruck." },
+    ],
+    transferExpressions: [
+      { de: "Das ist eine sehr gute Frage – lassen Sie mich kurz überlegen.", en: "That is a very good question — let me think for a moment.", useIn: "Sprechen" },
+      { de: "Ich erkläre das am liebsten an einem konkreten Beispiel aus meinem Studium.", en: "I prefer explaining that using a concrete example from my studies.", useIn: "Sprechen" },
+      { de: "Vielen Dank für das sehr angenehme Gespräch und den spannenden Einblick in Ihr Team!", en: "Thank you very much for the very pleasant conversation and exciting insight into your team!", useIn: "Schreiben" },
+    ],
+    speakingWritingPromptDe: "Schreiben oder sagen Sie eine kurze 3-Satz-Dankes-E-Mail nach einem Vorstellungsgespräch bei einer KI-Firma!",
+    speakingWritingPromptEn: "Write or say a short 3-sentence thank-you email after a job interview at an AI company!",
+    source: "curated",
+  },
+];
